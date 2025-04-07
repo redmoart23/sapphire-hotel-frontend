@@ -40,7 +40,7 @@ export const getReservationPriceUseCase = async ({
       }
     );
 
-    return response.data.data.getReservationPrice;
+    return response.data.getReservationPrice;
   } catch (error) {
     console.error("Error getting reservation:", error);
     throw error;

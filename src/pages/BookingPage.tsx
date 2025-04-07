@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import { format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import type { DateRange } from "react-day-picker";
-
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
@@ -37,7 +36,7 @@ export default function BookingPage() {
   const [rooms, setRooms] = useState<RoomsResponse[]>([]);
   const [allInclusive, setAllInclusive] = useState(false);
 
-  const handleBookClick = (room: RoomsResponse) => {
+  const handleBookClick = (room: RoomsResponse) => {    
     setSelectedRoom(room);
     setConfirmationOpen(true);
   };

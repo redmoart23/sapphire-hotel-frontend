@@ -8,6 +8,7 @@ export default function RoomCard({
   onBookClick,
   roomImage,
 }: RoomCardProps) {
+  
   return (
     <div className="border rounded-3xl overflow-hidden">
       <div className="p-6">
