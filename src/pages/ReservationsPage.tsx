@@ -41,7 +41,7 @@ export default function ReservationsPage() {
       <Header activeTab="reservations" />
 
       <main className="container mx-auto px-4 py-6">
-        <h2 className="text-xl font-bold mb-4">Reservations Summary</h2>
+        <h2 className="text-xl font-bold mb-4">Reservations History</h2>
 
         <div className="grid md:grid-cols-3 gap-6">
           {reservations.map((reservation) => (
