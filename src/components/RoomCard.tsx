@@ -1,6 +1,6 @@
 import { format } from "date-fns";
-import { Button } from "@/components/ui/button";
 import { RoomCardProps } from "@/interfaces/rooms.interface";
+import { Button } from "@/components/ui/button";
 
 export default function RoomCard({
   room,

@@ -47,8 +47,8 @@ export default function ConfirmationPopover({
     return null;
   }
 
-  const basePrice = reservationData?.basePrice;
-  const discount = reservationData?.discount;
+  const basePrice = reservationData?.basePrice ;
+  const discount = reservationData?.discount ;
   const allInclusivePrice = reservationData?.extraServicesFee;
   const weekendSurcharge = reservationData?.weekendSurcharge;
   const total = basePrice - discount + allInclusivePrice + weekendSurcharge;
@@ -64,7 +64,7 @@ export default function ConfirmationPopover({
 
           <div className="flex flex-col items-center mb-4">
             {/* <img
-              src={roomImage}
+              src={"/room.jpg"}
               alt={`${room.roomName} - ${room.roomType}`}
               className="w-40 h-32 object-cover bg-gray-200 mb-4 rounded-lg"
             /> */}

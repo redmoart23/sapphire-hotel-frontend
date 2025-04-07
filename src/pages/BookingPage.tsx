@@ -36,7 +36,7 @@ export default function BookingPage() {
   const [rooms, setRooms] = useState<RoomsResponse[]>([]);
   const [allInclusive, setAllInclusive] = useState(false);
 
-  const handleBookClick = (room: RoomsResponse) => {    
+  const handleBookClick = (room: RoomsResponse) => {
     setSelectedRoom(room);
     setConfirmationOpen(true);
   };
